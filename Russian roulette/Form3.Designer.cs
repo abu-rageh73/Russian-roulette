@@ -36,7 +36,7 @@
             // 
             this.Btntry.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Btntry.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btntry.ForeColor = System.Drawing.Color.Red;
+            this.Btntry.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.Btntry.Location = new System.Drawing.Point(361, 186);
             this.Btntry.Name = "Btntry";
             this.Btntry.Size = new System.Drawing.Size(170, 66);
@@ -61,10 +61,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(914, 450);
             this.Controls.Add(this.lblstatus);
             this.Controls.Add(this.Btntry);
+            this.ForeColor = System.Drawing.SystemColors.Control;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "formplay";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

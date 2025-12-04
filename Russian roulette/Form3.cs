@@ -16,7 +16,7 @@ namespace Russian_roulette
     {
         private int revolver;
         private Random rand = new Random();
-        private bool performshutdown = true;
+        private bool performshutdown = false;
 
       
         public formplay()

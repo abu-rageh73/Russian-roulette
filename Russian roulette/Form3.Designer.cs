@@ -35,11 +35,11 @@
             // Btntry
             // 
             this.Btntry.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Btntry.Font = new System.Drawing.Font("Tekton Pro Ext", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btntry.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btntry.ForeColor = System.Drawing.Color.Red;
-            this.Btntry.Location = new System.Drawing.Point(332, 184);
+            this.Btntry.Location = new System.Drawing.Point(361, 186);
             this.Btntry.Name = "Btntry";
-            this.Btntry.Size = new System.Drawing.Size(149, 66);
+            this.Btntry.Size = new System.Drawing.Size(170, 66);
             this.Btntry.TabIndex = 2;
             this.Btntry.Text = "TRY YOUR LUCK :)";
             this.Btntry.UseVisualStyleBackColor = false;
@@ -48,20 +48,21 @@
             // lblstatus
             // 
             this.lblstatus.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.lblstatus.Font = new System.Drawing.Font("Tekton Pro Ext", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblstatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblstatus.ForeColor = System.Drawing.Color.Red;
-            this.lblstatus.Location = new System.Drawing.Point(189, 53);
+            this.lblstatus.Location = new System.Drawing.Point(216, 53);
             this.lblstatus.Name = "lblstatus";
-            this.lblstatus.Size = new System.Drawing.Size(410, 34);
+            this.lblstatus.Size = new System.Drawing.Size(469, 34);
             this.lblstatus.TabIndex = 3;
             this.lblstatus.Text = "Result";
+            this.lblstatus.Click += new System.EventHandler(this.lblstatus_Click);
             // 
             // formplay
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(914, 450);
             this.Controls.Add(this.lblstatus);
             this.Controls.Add(this.Btntry);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

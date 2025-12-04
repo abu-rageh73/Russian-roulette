@@ -64,5 +64,10 @@ namespace Russian_roulette
                 lblstatus.Text = "LUCKY!try again. ";
             }
         }
+
+        private void lblstatus_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
